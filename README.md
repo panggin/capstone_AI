@@ -5,7 +5,7 @@
 
 음식 사진 등록으로 영양 정보를 자동으로 판단하는 기능을 구현하기 위해 한식 이미지 분류기를 제작하였습니다.
 
-기존 이미지 분류 모델 `MobileNet`의 특성 추출 구조를 사용하고 새로운 분류 체계에 맞도록 완전 연결층을 추가하여 학습하였습니다.
+기존 분류 모델 `MobileNet`의 특성 추출층을 사용하고 새로운 분류 체계에 맞도록 완전 연결층을 추가하여 학습하였습니다.
 
 - 최종 학습 모델 : [foodmodel.h5](https://github.com/panggin/capstone_AI/blob/main/code/AI_package_and_flask/foodmodel.h5)
 
